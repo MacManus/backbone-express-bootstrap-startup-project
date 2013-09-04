@@ -1,4 +1,6 @@
-node-express-backbone-bootstrap-ejs-startup-project
+# node-express-backbone-bootstrap-ejs
+
+# startup-project
 ==========================================
 
 # dependencies :
