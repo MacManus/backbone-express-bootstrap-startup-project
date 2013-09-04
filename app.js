@@ -8,6 +8,7 @@ var routes = require('./routes');
 var user = require('./routes/user');
 var http = require('http');
 var path = require('path');
+var db = require('./db');
 
 var app = express();
 
@@ -27,8 +28,11 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', routes.index);
-app.get('/users', user.list);
+// app.get('/', routes.index);
+// app.get('/users', user.list);
+
+// let's have a dedicated file for the routes handling
+require('./routes')(app);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
