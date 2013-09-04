@@ -11,7 +11,7 @@ node-express-backbone-bootstrap-ejs-startup-project
 
 1) clone the project
 
-2) Change the directory name to 'myporject'
+2) Change the directory name to 'myproject'
 
 3) cd in the project
 
