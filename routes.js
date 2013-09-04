@@ -25,6 +25,3 @@ module.exports = function (app) {
 	// app.put('/api/contents/:id', contents.update);		// update 1 contents
 	// app.delete('/api/contents/:id', contents.destroy);	// delte 1 contents
 }
-
-
-

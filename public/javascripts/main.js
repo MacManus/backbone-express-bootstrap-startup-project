@@ -12,7 +12,7 @@
     
     // on DOM READY stuffs ...
     $(document).ready(function() {
-        
+        console.log('this is mains.js');
     });
 
 })(jQuery);
