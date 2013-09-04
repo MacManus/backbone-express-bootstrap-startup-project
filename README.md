@@ -1,17 +1,22 @@
 node-express-backbone-bootstrap-ejs-startup-project
 ==========================================
 
-dependencies :
+# dependencies :
 
 - Node.js
 - Mongodb
 
 
-Installation :
+# Installation :
+
 1) clone the project
+
 2) Change the directory name to 'myporject'
+
 3) cd in the project
+
 4) run npm install
 
-Lift the server :
+# Lift the server :
+
 node app
