@@ -1,7 +1,10 @@
 (function($) {
-    // this is to avoid conflict between ejs <% %> notation and underscore notation {{ }}
+    //this is to avoid conflict between ejs <% %> notation and underscore notation :
+    // interpolate  <%= %> to {{ }}
+    // evaluate  <% %> to {[ ]}
     _.templateSettings = {
-      interpolate : /\{\{(.+?)\}\}/g
+        evaluate : /\{\[([\s\S]+?)\]\}/g,
+        interpolate : /\{\{(.+?)\}\}/g
     };
 
     //override default backbone behavior reading _id from mongo
